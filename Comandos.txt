@@ -1,0 +1,50 @@
+***Notas de programación***
+
+git --version
+
+¿Que se entiende por ese codigo?
+
+Estamos llamando al programa e indicandole que nos diga la version de git. 
+ahora porque tiene dos guiones o rayitas,que tenga dos rayitas es una señal de que lo que solicitamos
+lo escribiremos de manera completa.
+
+lo siguiente es : git commit -am 
+es una solicitud pero en este caso estaremos abreviando lo solicitado.
+
+***
+
+git Help : un comando para obtener las indicaciones de git help.
+
+Cuando insertamos un codigo y no puedes salir puedes indicar la salida con la letra Q 
+
+Cuando indicamos : git --help config : nos indica ayuda con referencia a ese codigo.
+
+***
+
+OjO no borrar el .git que se crea con el comando git init debido a que se borra toda la infraestructura de .git
+No se debe hacer nada dentro de dicho repositorio.
+
+git status nos genera o nos indica los archivos que ya fueron admitidos o committed y tambien los archivos que no han sido 
+inscritos o untracked files.
+
+En verde los que ya estan y en la sesion de committed y en rojos los untracked.
+
+***
+git branch : es para ver las ramas o dimensiones de git.
+
+para cambiar el nombre de la rama a main debemos poner
+
+git branch -m master <nombre que quieras poner> ejemplo:
+git branch -m master main
+git branch -m master user
+git branch -m master boy
+************
+
+el comando:
+
+git config --global init.defaultBranch main
+
+es para que cuando inicies tu repositorio puedas visualizarlo con la rama main
+
+
+
