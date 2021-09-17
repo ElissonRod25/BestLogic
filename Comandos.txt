@@ -45,6 +45,3 @@ el comando:
 git config --global init.defaultBranch main
 
 es para que cuando inicies tu repositorio puedas visualizarlo con la rama main
-
-
-
