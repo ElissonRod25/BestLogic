@@ -53,3 +53,8 @@ es para que cuando inicies tu repositorio puedas visualizarlo con la rama main
 
 git config --global alias.s status | crear alias
 git config --global -e  | Configurar alias 
+
+Este hermoso /comando/ que vemos aca es para graficar los log que hemos realizado con su fecha al lado.
+
+log "--graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset)- %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
