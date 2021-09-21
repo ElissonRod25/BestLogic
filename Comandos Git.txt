@@ -58,3 +58,21 @@ Este hermoso /comando/ que vemos aca es para graficar los log que hemos realizad
 
 log "--graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset)- %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 
+///---///
+
+git reset --soft HEAD^
+
+elimina el ultimo commit que nosotros realizamos 
+
+Ahora un punto a tomar en cuenta es que si en esta parte del comando
+
+- HEAD^
+Especificamente la parte final, agregamos un numero así
+- HEAD^1
+Va a eliminar el antepenultimo commit
+
+No es recomendable usar los reset debido a que puede afectar cambios y commits importantes.
+
+
+
+
