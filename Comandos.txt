@@ -45,3 +45,11 @@ el comando:
 git config --global init.defaultBranch main
 
 es para que cuando inicies tu repositorio puedas visualizarlo con la rama main
+
+
+* como hacer un alias:
+
+/comando 
+
+git config --global alias.s status | crear alias
+git config --global -e  | Configurar alias 
